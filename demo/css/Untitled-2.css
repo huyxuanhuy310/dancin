@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* CSS Document */
+.outer{ height:5196px;
+		width:1280px;
+		background:#777575;
+		margin:0 auto;}
+.header{ height:725px;
+		width:1280px;
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1f6fc+0,a8a8b4+100,a8a8b4+101 */
+background: #f1f6fc; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #f1f6fc 0%, #a8a8b4 100%, #a8a8b4 101%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #f1f6fc 0%,#a8a8b4 100%,#a8a8b4 101%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #f1f6fc 0%,#a8a8b4 100%,#a8a8b4 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f6fc', endColorstr='#a8a8b4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+		.header01{width:1280px;
+					height:190px;
+					}
+					.logo{width:410px;
+					height:120px;
+					
+					float:left;
+					padding-top:70px;
+					}
+					
+					.menu{width:870px;
+					height:135px;
+					
+					float:right;
+					padding-top:55px;
+					}
+						.menucon{width:740px;
+					height:45px;
+					
+					font-size:14px;
+					text-align:center;
+					display:inline-block;
+					font-weight:bold;
+					padding: 10px 50px;}
+					
+						.menucon ul{
+								font-family:titlecontent;
+								}
+						.menucon ul li{list-style:none;
+										float:left;
+										margin:15px;}
+						.menucon ul li a{text-decoration:none;
+										color:#0D0D0D;}
+						.menucon ul li a:hover{ color:#03BEC1;}
+					
+					
+		.header02{width:1280px;
+					height:535px;
+					float: left;
+					position:relative;
+					}
+					.textheader{font-weight:bold;
+								font-family:titlecontent;
+								font-size:40px;
+								position:absolute;
+								top:65px;
+								left:620px;	
+								padding-right:100px;}
+								#learnmore{ height:28px;
+											width:135px;
+											
+											border-radius:35px;
+											border:#5E5D5D solid 2px;
+											position:absolute;
+											top: 300px;
+											left:620px;
+											font-weight:bold;
+								font-family:titlecontent;
+								padding-top:12px;
+								text-align:center;
+								font-size:14px;}
+								#learnmore a{text-decoration:none;
+											color:#070707;}
+								#learnmore a:hover{color:#03BEC1;}
+.search{ height:140px;
+		width:1280px;
+		background:#f5f5f5;}
+		.searchleft{ width:437px;
+					height:112px;
+					background:#f5f5f5;
+					float:left;
+					font-weight:bold;
+				font-family:titlecontent;
+				font-size:26px;
+				padding-top:28px;
+				padding-left:200px;
+				}
+		
+			.searchright{ width:633px;
+					height:90px;
+					background:#f5f5f5;
+					float:right;
+					padding-top:50px;
+					padding-left:10px;
+					position:relative;}
+					
+								
+		input{ width:290px;
+				height:40px;
+				border:2px #C7C4C4 solid;
+				border-radius:50px; }
+		.searchbox{ height:33px;
+					width:140px;
+					background:#5ac8d7;
+					border-radius:50px;
+					position:absolute; 
+					top:50px;
+					left:320px;
+					font-weight:bold;
+				font-family:titlecontent;
+				text-align:center;
+				padding-top:7px;}
+				.searchbox a{text-decoration:none;
+				color:#020202;}
+				.searchbox:hover{background-color:#025549;}
+					
+.content01{ height:704px;
+		width:1280px;
+		background:#F79E9F;}
+		
+		.hinh1{height:707px;
+				width:640px;
+				background:#FFFFFF;
+				float:left;}
+		.textcontent01{height:707px;
+				width:640px;
+				background:#FFFFFF;
+				float:right;
+				
+				
+				}
+					#ballet{font-size:40px;
+				font-weight:bold;
+				font-family:titlecontent;
+				padding-left:20px;
+				padding-top:100px;}
+					#thatwill{font-size:30px;
+								font-family:titlecontent;
+								padding-left:25px;
+								}
+					.text{font-size:15px;
+							font-family:titlecontent;
+							padding-left:25px;}
+					.maxim{font-size:20px;
+							font-family:titlecontent;
+					}
+					#auther{font-size:12px;
+					padding-left:300px;
+					font-weight:bold;}
+				
+.picture{ height:726px;
+		width:1280px;
+		background:#888DF1;}
+		
+		.pic{ height:362px;
+		width:320px;
+		background:#77E992;
+		float:left; }
+		.pic img{transition:all 0.3s ease;}
+		.pic img:hover{-webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);}
+		.pic hinhnho img{transition:all 0.3s ease;}
+		.pic hinhnho img:hover{border-radius:50%;}
+		.hinhnho{height:272px;
+		width:320px;
+		background:#f5f5f5;
+		padding-top:90px;
+		float:leftl;}
+		
+.titlecontent{ height:77px;
+		width:1280px;
+		background:#FFFFFF;
+		font-size:35px;
+		font-weight:bold;
+		text-align:center;
+		padding-top:100px;
+		font-family:titlecontent;}
+.content02{ height:566px;
+		width:1280px;
+		background:#FFFFFF;
+		display: flex;
+  justify-content: center;
+ 
+ }
+.number{ height:276px;
+		width:1280px;
+		background:#71DFF1;}
+.content03{ height:566px;
+		width:1280px;
+		background:#FFFFFF;
+		display: flex;
+  justify-content: center;}
+  				
+		
+		.boxfic{height:566px;
+				width:289px;
+				background:#FFFFFF;
+				float:left;
+				margin:0px 25px;
+				
+				}
+	/* này là text content 2*/
+				.name{text-align:center;
+				font-family:titlecontent;
+				font-weight:bold;}
+				.DANCEINTRUC{font-size:17px;
+							font-family:titlecontent;
+							text-align:center;}
+				.textpic{font-family:titlecontent;
+				text-align:center;
+				font-size:12px;}
+	/* này là text content 3*/
+				.tillecontent3{ font-size:20px;
+				font-weight:bold;
+				font-family:titlecontent;}
+				.textcontent3{font-size:12px;
+				font-family:titlecontent; }
+				
+				
+.slogan{ height:271px;
+		width:1080px;
+		background:#f5f5f5;
+		text-align:center;
+		
+		font-size:25px;
+		font-family:titlecontent;
+		padding: 150px 100px 0 100px;}
+		
+		.textsologan{text-align:center;
+						font-size:15px;
+						}
+		
+.infor{ height:378px;
+		width:1280px;
+		background:#FFFFFF;
+		display: flex;
+  justify-content: center;}
+		
+		.infor1{height:228px;
+				width:254px;
+				background:#FFFFFF;
+				float:left;
+				margin:0 20px;
+				
+				padding-top:150px;
+				text-align:center;
+  
+  }
+		
+		.vuong{height:40px;
+				width:30px;
+				background:#FFFFFF;
+				border:#00FFB3 solid 3px;
+				margin-left:110px;
+				
+				
+				 }
+		.titleinfor{font-size:20px;
+		display:block; 
+		font-family:titlecontent;
+		font-weight:bold;	
+		}
+		.textinfor{
+					font-family:titlecontent;
+					font-size:15px;}
+		
+.footer{ height:321px;
+		width:1280px;
+		background:#060606;
+		position:relative;}
+		.logofooter{height:65px;
+					width:1280px;
+					padding-top:60px;
+					display: flex;
+ 					 justify-content: center;
+  }
+		.footermenu{height:80px;
+		width:1280px;
+		background:#060606;
+		 }
+		 .menucon2{width:730px;
+					height:45px;
+					
+					font-size:14px;
+					text-align:center;
+					display:inline-block;
+					font-weight:bold;
+					padding: 10px 60px;}
+					
+						.menucon2 ul{
+								font-family:titlecontent;
+								}
+						.menucon2 ul li{list-style:none;
+										float:left;
+										margin:15px;}
+						.menucon2 ul li a{text-decoration:none;
+										color:#FFFFFF;}
+		.boxdot{height:120px;
+			width:1280px;
+			background:#060606;
+			display: flex;
+  justify-content: center;}
+		.dot{height:7px;
+			width:7px;
+			border:#FFFFFF solid 0.5px;
+			margin:10px;
+			float:left;
+			
+			
+			}
+	/* back to top */		
+	body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+		
+		
+@font-face {
+	font-family:titlecontent;
+	src:url(../font/Farro-Light.ttf);
+}
